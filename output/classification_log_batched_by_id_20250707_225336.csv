@@ -1,0 +1,137 @@
+row_index,goal_count,gpt_response,error
+0,5,"```json
+{
+    ""LPSgoal1_content"": [""WEC""],
+    ""LPSgoal2_content"": [""Hou""],
+    ""LPSgoal3_content"": [""WEC""],
+    ""LPSgoal4_content"": [""IR""],
+    ""LPSgoal5_content"": [""MAR"", ""HQL""]
+}
+```",
+1,7,"```json
+{
+    ""LPSgoal1_content"": [""FS""],
+    ""LPSgoal2_content"": [""FS""],
+    ""LPSgoal3_content"": [""Hou""],
+    ""LPSgoal4_content"": [""MAR"", ""WEC""],
+    ""LPSgoal5_content"": [""HQL""],
+    ""LPSgoal6_content"": [""MAR""],
+    ""LPSgoal7_content"": [""WEC""]
+}
+```",
+2,7,"```json
+{
+    ""LPSgoal1_content"": [""MD""],
+    ""LPSgoal2_content"": [""IR""],
+    ""LPSgoal3_content"": [""WEC"", ""Hou""],
+    ""LPSgoal4_content"": [""Hou""],
+    ""LPSgoal5_content"": [""Tra""],
+    ""LPSgoal6_content"": [""FS""],
+    ""LPSgoal7_content"": [""EFT""]
+}
+```",
+3,8,"```json
+{
+    ""LPSgoal1_content"": [""WEC""],
+    ""LPSgoal2_content"": [""WEC"", ""MAR""],
+    ""LPSgoal3_content"": [""MAR""],
+    ""LPSgoal4_content"": [""EFT""],
+    ""LPSgoal5_content"": [""WEC"", ""CI""],
+    ""LPSgoal6_content"": [""IR""],
+    ""LPSgoal7_content"": [""Tra""],
+    ""LPSgoal8_content"": [""EFT""]
+}
+```",
+4,1,"```json
+{""LPSgoal1_content"": [""IR""]}
+```",
+5,3,"```json
+{
+    ""LPSgoal1_content"": [""WEC""],
+    ""LPSgoal2_content"": [""HQL""],
+    ""LPSgoal3_content"": [""IR""]
+}
+```",
+6,3,"```json
+{
+    ""LPSgoal1_content"": [""Hou""],
+    ""LPSgoal2_content"": [""Hou""],
+    ""LPSgoal3_content"": [""WEC""]
+}
+```",
+7,5,"```json
+{
+    ""LPSgoal1_content"": [""Tra""],
+    ""LPSgoal2_content"": [""IR""],
+    ""LPSgoal3_content"": [""CI""],
+    ""LPSgoal4_content"": [""HQL""],
+    ""LPSgoal5_content"": [""HQL""]
+}
+```",
+8,6,"```json
+{
+    ""LPSgoal1_content"": [""Hou""],
+    ""LPSgoal2_content"": [""HQL""],
+    ""LPSgoal3_content"": [""FS""],
+    ""LPSgoal4_content"": [""PDEI""],
+    ""LPSgoal5_content"": [""Hou""],
+    ""LPSgoal6_content"": [""CI""]
+}
+```",
+9,3,"```json
+{
+    ""LPSgoal1_content"": [""WEC""],
+    ""LPSgoal2_content"": [""WEC""],
+    ""LPSgoal3_content"": [""Tra""]
+}
+```",
+10,6,"```json
+{
+    ""LPSgoal1_content"": [""WEC""],
+    ""LPSgoal2_content"": [""WEC""],
+    ""LPSgoal3_content"": [""IR""],
+    ""LPSgoal4_content"": [""Tra""],
+    ""LPSgoal5_content"": [""IR"", ""Hou""],
+    ""LPSgoal6_content"": [""HQL""]
+}
+```",
+11,10,"```json
+{
+    ""LPSgoal1_content"": [""PDEI""],
+    ""LPSgoal2_content"": [""WEC""],
+    ""LPSgoal3_content"": [""WEC""],
+    ""LPSgoal4_content"": [""Hou""],
+    ""LPSgoal5_content"": [""IR""],
+    ""LPSgoal6_content"": [""IR""],
+    ""LPSgoal7_content"": [""IR""],
+    ""LPSgoal8_content"": [""RS""],
+    ""LPSgoal9_content"": [""HQL",
+12,7,"```json
+{
+    ""LPSgoal1_content"": [""WEC"", ""Hou""],
+    ""LPSgoal2_content"": [""IR""],
+    ""LPSgoal3_content"": [""IR""],
+    ""LPSgoal4_content"": [""WEC""],
+    ""LPSgoal5_content"": [""IR""],
+    ""LPSgoal6_content"": [""Hou""],
+    ""LPSgoal7_content"": [""MD""]
+}
+```",
+13,7,"```json
+{
+    ""LPSgoal1_content"": [""MAR""],
+    ""LPSgoal2_content"": [""MD""],
+    ""LPSgoal3_content"": [""FS""],
+    ""LPSgoal4_content"": [""WEC""],
+    ""LPSgoal5_content"": [""Hou""],
+    ""LPSgoal6_content"": [""EFT"", ""WEC""],
+    ""LPSgoal7_content"": [""HQL""]
+}
+```",
+14,3,"```json
+{
+    ""LPSgoal1_content"": [""IR""],
+    ""LPSgoal2_content"": [""IR""],
+    ""LPSgoal3_content"": [""WEC""]
+}
+```",
