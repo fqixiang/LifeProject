@@ -28,9 +28,9 @@ uv run python main_batched.py
 FTOLP_LLM/
 ├── README.md
 ├── data                                                # Input data folder
-│   └── input_test.xlsx                                 # Excel file with life goals to classify
+│   └── Final_Data_Pilot_test.xlsx                      # Excel file with life goals to classify
 ├── evaluate                                            # Manual labels and evaluation folder
-│   ├── input_ea.xlsx                                   # Manually coded life goal categories
+│   ├── Final_Data_Pilot_test_ea.xlsx                   # Manually coded life goal categories
 │   └── output/                                         # Output of evaluation results folder
 ├── evaluate_accuracy.py                                # Script to compare LLM output with manual labels
 ├── lifeproject                                         # Core Python package (classification logic & config)
@@ -46,7 +46,8 @@ FTOLP_LLM/
 ├── requirements.in                                     # Editable dependency list
 ├── system_prompt.txt                                   # System prompt template for guiding LLM
 ├── uv.lock                                             # (Generated) Locked dependency versions
-└── .env                                                # Environment variables (API key, model name)
+├── .env                                                # Environment variables (API key, model name)
+└── .gitignore                                          # Telling Git which files or directories to ignore and exclude from version control
 ```
 
 ---
@@ -118,7 +119,10 @@ This script compares the LLM output with manually labeled data (`evaluate/input_
 
 ## 📝 Note
 
-The old script main.py is deprecated and will be removed in future versions.
+- The old script main.py is deprecated and will be removed in future versions.
+- classifier.py has been replaced by classifier_batched.py and prompt_builder.py.
+- The input file has been updated to Final_Data_Pilot_test.xlsx, and the evaluation input file has been updated to Final_Data_Pilot_test_ea.xlsx.
+- A new repository named LifeProject has been initialized on GitHub to manage core classification modules.
 
 ---
 
