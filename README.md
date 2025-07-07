@@ -1,47 +1,50 @@
 # Life Goal Classification using LLMs
 
-This project is designed to classify **life goals** based on a structured taxonomy using **large language models (LLMs)** via API calls. It reads life goal data from Excel files, classifies them into categories using an LLM (like GPT), and evaluates the classification accuracy against manually labeled data.
+This project classifies life goals into structured categories using large language models (LLMs) via API calls. It reads life goal data from Excel files, classifies them using a prompt aligned with a predefined codebook, and optionally evaluates the classification accuracy against manual labels.
 
 ---
 
-## 🗂️ Project Structure
+## 🔄 Update: Batched Classification (batch-llm-call branch)
+This branch introduces a more efficient version of the classification logic with key updates:
+- Use main_batched.py instead of main.py
+
+- Combine all non-empty goals per person (row) into a single LLM call, reducing token usage
+
+- Replace categories.json with system_prompt.txt, which ensures full alignment with the current codebook
+
+- Same output structure as before: one classification per goal column
+
+To run the new version:
+
+```bash
+uv run python main_batched.py
+```
+
+---
+
+## 🗂️ Project Structure(Updated)
 
 ```
 FTOLP_LLM/
 ├── README.md
-├── categories.json                                     # Life goal category taxonomy used by LLM
-├── categories_prompt.txt                               # *Optional formatted prompt text for development(Not used)
 ├── data                                                # Input data folder
 │   └── input_test.xlsx                                 # Excel file with life goals to classify
 ├── evaluate                                            # Manual labels and evaluation folder
 │   ├── input_ea.xlsx                                   # Manually coded life goal categories
-│   └── output                                          # Output of evaluation results folder
-│       ├── accuracy_by_goal_20250630_122453.png        # Accuracy plots
-│       ├── differences_analysis_20250630_122453.xlsx   # Mismatch result
-│       └── evaluate_accuracy_20250630_122453.log       # Mismatch logs
+│   └── output/                                         # Output of evaluation results folder
 ├── evaluate_accuracy.py                                # Script to compare LLM output with manual labels
 ├── lifeproject                                         # Core Python package (classification logic & config)
 │   ├── __init__.py                                     # Package initialization
-│   ├── __pycache__                                     # (Generated) Cache directory folder
-│   │   ├── __init__.cpython-313.pyc
-│   │   ├── classifier.cpython-313.pyc
-│   │   ├── config.cpython-313.pyc
-│   │   └── llm.cpython-313.pyc
-│   ├── classifier.py                                   # Main classification logic using LLM(Prompt)
+│   ├── __pycache__/                                    # (Generated) Cache directory folder
 │   ├── classifier_batched.py                           # *Main classification logic using LLM for main_batched.py(not run yet)
 │   ├── prompt_builder.py                               # *System prompt for main_batched.py(not run yet)
 │   ├── config.py                                       # LLM config management (loads .env)
 │   └── llm.py                                          # LLM config dataclass and OpenAI interface
-├── main.py                                             # Main script to classify life goals in an Excel file
-├── main_batched.py                                     # *Main script to classify life goals in an Excel file using batched LLM requests(not run yet)
-├── output                                              # Output data folder
-│   ├── classification_log.csv                          # Test result log 1
-│   ├── classification_log_20250630_103327.csv          # Test result log 2
-│   ├── output_classified.xlsx                          # Test result 1
-│   └── output_classified_20250630_103327.xlsx          # Test result 2
+├── main_batched.py                                     # Main script to classify life goals in an Excel file using batched LLM requests
+├── output/                                             # Output data folder
 ├── pyproject.toml                                      # Project metadata and configuration
 ├── requirements.in                                     # Editable dependency list
-├── system_prompt.txt                                   # *System prompt template for guiding LLM(Not used)
+├── system_prompt.txt                                   # System prompt template for guiding LLM
 ├── uv.lock                                             # (Generated) Locked dependency versions
 └── .env                                                # Environment variables (API key, model name)
 ```
@@ -91,7 +94,7 @@ LLM_PROVIDER=openai
 ### 3. Run the classification
 
 ```bash
-uv run python main_json.py
+uv run python main_batched.py
 ```
 
 This will:
@@ -113,12 +116,9 @@ This script compares the LLM output with manually labeled data (`evaluate/input_
 
 ---
 
-## 📌 Notes
+## 📝 Note
 
-- All classification behavior is driven by the `categories.json` file.
-- Output and log files are timestamped for traceability.
-- Alternative approach 1: Batch goals by ID to reduce token usage. (Coding completed, but the code has not been executed yet.)
-- Alternative approach 2: Batch goals by ID and combine with RAG to reduce token usage. (Not yet started.)
+The old script main.py is deprecated and will be removed in future versions.
 
 ---
 
