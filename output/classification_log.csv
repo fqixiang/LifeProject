@@ -1,0 +1,271 @@
+row_index,column_name,goal_text,gpt_response,parsed_category,error
+0,LPSgoal1_content,Graduate college with my bachelors,"{""categories"": [""WEC""]}",WEC,
+0,LPSgoal2_content,Start teaching,"{""categories"": [""WEC""]}",WEC,
+0,LPSgoal3_content,Be married,"{""categories"": [""IR""]}",IR,
+0,LPSgoal4_content,nan,,,Empty or missing text
+0,LPSgoal5_content,nan,,,Empty or missing text
+0,LPSgoal6_content,nan,,,Empty or missing text
+0,LPSgoal7_content,nan,,,Empty or missing text
+0,LPSgoal8_content,nan,,,Empty or missing text
+0,LPSgoal9_content,nan,,,Empty or missing text
+0,LPSgoal10_content,nan,,,Empty or missing text
+0,LPSgoal11_content,nan,,,Empty or missing text
+0,LPSgoal12_content,nan,,,Empty or missing text
+0,LPSgoal13_content,nan,,,Empty or missing text
+0,LPSgoal14_content,nan,,,Empty or missing text
+0,LPSgoal15_content,nan,,,Empty or missing text
+1,LPSgoal1_content,I want to be a teacher that can impact students lives.,"{""categories"": [""WEC""]}",WEC,
+1,LPSgoal2_content,nan,,,Empty or missing text
+1,LPSgoal3_content,nan,,,Empty or missing text
+1,LPSgoal4_content,nan,,,Empty or missing text
+1,LPSgoal5_content,nan,,,Empty or missing text
+1,LPSgoal6_content,nan,,,Empty or missing text
+1,LPSgoal7_content,nan,,,Empty or missing text
+1,LPSgoal8_content,nan,,,Empty or missing text
+1,LPSgoal9_content,nan,,,Empty or missing text
+1,LPSgoal10_content,nan,,,Empty or missing text
+1,LPSgoal11_content,nan,,,Empty or missing text
+1,LPSgoal12_content,nan,,,Empty or missing text
+1,LPSgoal13_content,nan,,,Empty or missing text
+1,LPSgoal14_content,nan,,,Empty or missing text
+1,LPSgoal15_content,nan,,,Empty or missing text
+2,LPSgoal1_content,Graduate College,"{""categories"": [""WEC""]}",WEC,
+2,LPSgoal2_content,Obtain a Masters in Teaching Degree,"{""categories"": [""WEC""]}",WEC,
+2,LPSgoal3_content,Start a Teaching Job,"{""categories"": [""WEC""]}",WEC,
+2,LPSgoal4_content,Get Married,"{""categories"": [""IR""]}",IR,
+2,LPSgoal5_content,Have children,"{""categories"": [""IR""]}",IR,
+2,LPSgoal6_content,To Travel to Africa,"{""categories"": [""Tra""]}",Tra,
+2,LPSgoal7_content,To hike more trails/backpacking,"{""categories"": [""EFT""]}",EFT,
+2,LPSgoal8_content,Be surrounded by friends and family,"{""categories"": [""IR""]}",IR,
+2,LPSgoal9_content,nan,,,Empty or missing text
+2,LPSgoal10_content,nan,,,Empty or missing text
+2,LPSgoal11_content,nan,,,Empty or missing text
+2,LPSgoal12_content,nan,,,Empty or missing text
+2,LPSgoal13_content,nan,,,Empty or missing text
+2,LPSgoal14_content,nan,,,Empty or missing text
+2,LPSgoal15_content,nan,,,Empty or missing text
+3,LPSgoal1_content,Graduate college and get a bachelor's degree,"{""categories"": [""WEC""]}",WEC,
+3,LPSgoal2_content,obtain a master's degree,"{""categories"": [""WEC""]}",WEC,
+3,LPSgoal3_content,get hired as a teacher,"{""categories"": [""WEC""]}",WEC,
+3,LPSgoal4_content,have a child,"{""categories"": [""IR""]}",IR,
+3,LPSgoal5_content,nan,,,Empty or missing text
+3,LPSgoal6_content,nan,,,Empty or missing text
+3,LPSgoal7_content,nan,,,Empty or missing text
+3,LPSgoal8_content,nan,,,Empty or missing text
+3,LPSgoal9_content,nan,,,Empty or missing text
+3,LPSgoal10_content,nan,,,Empty or missing text
+3,LPSgoal11_content,nan,,,Empty or missing text
+3,LPSgoal12_content,nan,,,Empty or missing text
+3,LPSgoal13_content,nan,,,Empty or missing text
+3,LPSgoal14_content,nan,,,Empty or missing text
+3,LPSgoal15_content,nan,,,Empty or missing text
+4,LPSgoal1_content,Become an elementary teacher,"{""categories"": [""WEC""]}",WEC,
+4,LPSgoal2_content,Have a family,"{""categories"": [""IR""]}",IR,
+4,LPSgoal3_content,Move out of my parents home,"{""categories"": [""Hou""]}",Hou,
+4,LPSgoal4_content,Live in a city,"{""categories"": [""MAR"", ""Hou""]}","MAR, Hou",
+4,LPSgoal5_content,Work as a fitness instructor,"{""categories"": [""WEC"", ""EFT""]}","WEC, EFT",
+4,LPSgoal6_content,Own a dog,"{""categories"": [""Oth""]}",Oth,
+4,LPSgoal7_content,Graduate college,"{""categories"": [""WEC""]}",WEC,
+4,LPSgoal8_content,Earn my masters in education,"{""categories"": [""WEC""]}",WEC,
+4,LPSgoal9_content,Get married,"{""categories"": [""IR""]}",IR,
+4,LPSgoal10_content,Travel Abroad,"{""categories"": [""Tra""]}",Tra,
+4,LPSgoal11_content,nan,,,Empty or missing text
+4,LPSgoal12_content,nan,,,Empty or missing text
+4,LPSgoal13_content,nan,,,Empty or missing text
+4,LPSgoal14_content,nan,,,Empty or missing text
+4,LPSgoal15_content,nan,,,Empty or missing text
+5,LPSgoal1_content,Graduate grad school,"{""categories"": [""WEC""]}",WEC,
+5,LPSgoal2_content,Move to Portland,"{""categories"": [""MAR""]}",MAR,
+5,LPSgoal3_content,Write a book,"{""categories"": [""WEC""]}",WEC,
+5,LPSgoal4_content,Form a long term romantic relationship,"{""categories"": [""IR""]}",IR,
+5,LPSgoal5_content,Become a special ed teacher,"{""categories"": [""WEC""]}",WEC,
+5,LPSgoal6_content,nan,,,Empty or missing text
+5,LPSgoal7_content,nan,,,Empty or missing text
+5,LPSgoal8_content,nan,,,Empty or missing text
+5,LPSgoal9_content,nan,,,Empty or missing text
+5,LPSgoal10_content,nan,,,Empty or missing text
+5,LPSgoal11_content,nan,,,Empty or missing text
+5,LPSgoal12_content,nan,,,Empty or missing text
+5,LPSgoal13_content,nan,,,Empty or missing text
+5,LPSgoal14_content,nan,,,Empty or missing text
+5,LPSgoal15_content,nan,,,Empty or missing text
+6,LPSgoal1_content,Graduate from college,"{""categories"": [""WEC""]}",WEC,
+6,LPSgoal2_content,Get into Graduate School in California,"{""categories"": [""WEC""]}",WEC,
+6,LPSgoal3_content,Graduate with a teaching certification and my masters.,"{""categories"": [""WEC""]}",WEC,
+6,LPSgoal4_content,To lose weight,"{""categories"": [""HQL""]}",HQL,
+6,LPSgoal5_content,To be married after dating for two years and living together for one.,"{""categories"": [""IR""]}",IR,
+6,LPSgoal6_content,To start working as an elementary school teacher,"{""categories"": [""WEC""]}",WEC,
+6,LPSgoal7_content,To get tenure,"{""categories"": [""WEC""]}",WEC,
+6,LPSgoal8_content,To be financially independent.,"{""categories"": [""FS""]}",FS,
+6,LPSgoal9_content,To have my first kid,"{""categories"": [""IR""]}",IR,
+6,LPSgoal10_content,Second Child,"{""categories"": [""IR""]}",IR,
+6,LPSgoal11_content,Save money for college for my children,"{""categories"": [""FS"", ""IR""]}","FS, IR",
+6,LPSgoal12_content,To have a close knit family,"{""categories"": [""IR""]}",IR,
+6,LPSgoal13_content,nan,,,Empty or missing text
+6,LPSgoal14_content,nan,,,Empty or missing text
+6,LPSgoal15_content,nan,,,Empty or missing text
+7,LPSgoal1_content,Graduate College,"{""categories"": [""WEC""]}",WEC,
+7,LPSgoal2_content,Travel around the world,"{""categories"": [""Tra""]}",Tra,
+7,LPSgoal3_content,Get engaged and married,"{""categories"": [""IR"", ""RS""]}","IR, RS",
+7,LPSgoal4_content,Become a teacher,"{""categories"": [""WEC""]}",WEC,
+7,LPSgoal5_content,Create a family,"{""categories"": [""IR""]}",IR,
+7,LPSgoal6_content,Buy a house,"{""categories"": [""Hou""]}",Hou,
+7,LPSgoal7_content,Fix up old houses,"{""categories"": [""Hou"", ""CI""]}","Hou, CI",
+7,LPSgoal8_content,Get realtor license,"{""categories"": [""WEC""]}",WEC,
+7,LPSgoal9_content,Open a daycare or tumbling gym,"{""categories"": [""WEC"", ""CI""]}","WEC, CI",
+7,LPSgoal10_content,nan,,,Empty or missing text
+7,LPSgoal11_content,nan,,,Empty or missing text
+7,LPSgoal12_content,nan,,,Empty or missing text
+7,LPSgoal13_content,nan,,,Empty or missing text
+7,LPSgoal14_content,nan,,,Empty or missing text
+7,LPSgoal15_content,nan,,,Empty or missing text
+8,LPSgoal1_content,Live in house without multiple roommates,"{""categories"": [""Hou""]}",Hou,
+8,LPSgoal2_content,nan,,,Empty or missing text
+8,LPSgoal3_content,nan,,,Empty or missing text
+8,LPSgoal4_content,nan,,,Empty or missing text
+8,LPSgoal5_content,nan,,,Empty or missing text
+8,LPSgoal6_content,nan,,,Empty or missing text
+8,LPSgoal7_content,nan,,,Empty or missing text
+8,LPSgoal8_content,nan,,,Empty or missing text
+8,LPSgoal9_content,nan,,,Empty or missing text
+8,LPSgoal10_content,nan,,,Empty or missing text
+8,LPSgoal11_content,nan,,,Empty or missing text
+8,LPSgoal12_content,nan,,,Empty or missing text
+8,LPSgoal13_content,nan,,,Empty or missing text
+8,LPSgoal14_content,nan,,,Empty or missing text
+8,LPSgoal15_content,nan,,,Empty or missing text
+9,LPSgoal1_content,六級考好一丁點,"{""categories"": [""WEC""]}",WEC,
+9,LPSgoal2_content,重慶旅行,"{""categories"": [""Tra""]}",Tra,
+9,LPSgoal3_content,教師資格證考試,"{""categories"": [""WEC""]}",WEC,
+9,LPSgoal4_content,日語等級考試n2,"{""categories"": [""WEC""]}",WEC,
+9,LPSgoal5_content,本科gpa 3.8,"{""categories"": [""WEC""]}",WEC,
+9,LPSgoal6_content,考研首都醫科大學,"{""categories"": [""WEC""]}",WEC,
+9,LPSgoal7_content,大三大四每一次present都順利,"{""categories"": [""WEC""]}",WEC,
+9,LPSgoal8_content,大三大四每一次quiz，exams都拿到好成績,"{""categories"": [""WEC""]}",WEC,
+9,LPSgoal9_content,學會滑冰,"{""categories"": [""EFT""]}",EFT,
+9,LPSgoal10_content,成為北京冬奧會的志願者,"{""categories"": [""CI"", ""Tra""]}","CI, Tra",
+9,LPSgoal11_content,嘗試接觸中醫,"{""categories"": [""Oth""]}",Oth,
+9,LPSgoal12_content,開始接觸腦科學,"{""categories"": [""Oth""]}",Oth,
+9,LPSgoal13_content,有能力支付購買自己想要的東西,"{""categories"": [""FS""]}",FS,
+9,LPSgoal14_content,找到喜歡我的人,"{""categories"": [""IR""]}",IR,
+9,LPSgoal15_content,家庭和睦,"{""categories"": [""IR""]}",IR,
+10,LPSgoal1_content,做好義工的工作,"{""categories"": [""CI""]}",CI,
+10,LPSgoal2_content,精進修行,"{""categories"": [""RS""]}",RS,
+10,LPSgoal3_content,照顧好家庭,"{""categories"": [""IR""]}",IR,
+10,LPSgoal4_content,照顧管理好組員,"{""categories"": [""IR""]}",IR,
+10,LPSgoal5_content,nan,,,Empty or missing text
+10,LPSgoal6_content,nan,,,Empty or missing text
+10,LPSgoal7_content,nan,,,Empty or missing text
+10,LPSgoal8_content,nan,,,Empty or missing text
+10,LPSgoal9_content,nan,,,Empty or missing text
+10,LPSgoal10_content,nan,,,Empty or missing text
+10,LPSgoal11_content,nan,,,Empty or missing text
+10,LPSgoal12_content,nan,,,Empty or missing text
+10,LPSgoal13_content,nan,,,Empty or missing text
+10,LPSgoal14_content,nan,,,Empty or missing text
+10,LPSgoal15_content,nan,,,Empty or missing text
+11,LPSgoal1_content,置業,"{""categories"": [""FS"", ""Hou""]}","FS, Hou",
+11,LPSgoal2_content,nan,,,Empty or missing text
+11,LPSgoal3_content,nan,,,Empty or missing text
+11,LPSgoal4_content,nan,,,Empty or missing text
+11,LPSgoal5_content,nan,,,Empty or missing text
+11,LPSgoal6_content,nan,,,Empty or missing text
+11,LPSgoal7_content,nan,,,Empty or missing text
+11,LPSgoal8_content,nan,,,Empty or missing text
+11,LPSgoal9_content,nan,,,Empty or missing text
+11,LPSgoal10_content,nan,,,Empty or missing text
+11,LPSgoal11_content,nan,,,Empty or missing text
+11,LPSgoal12_content,nan,,,Empty or missing text
+11,LPSgoal13_content,nan,,,Empty or missing text
+11,LPSgoal14_content,nan,,,Empty or missing text
+11,LPSgoal15_content,nan,,,Empty or missing text
+12,LPSgoal1_content,顺利博士毕业,"{""categories"": [""WEC""]}",WEC,
+12,LPSgoal2_content,nan,,,Empty or missing text
+12,LPSgoal3_content,nan,,,Empty or missing text
+12,LPSgoal4_content,nan,,,Empty or missing text
+12,LPSgoal5_content,nan,,,Empty or missing text
+12,LPSgoal6_content,nan,,,Empty or missing text
+12,LPSgoal7_content,nan,,,Empty or missing text
+12,LPSgoal8_content,nan,,,Empty or missing text
+12,LPSgoal9_content,nan,,,Empty or missing text
+12,LPSgoal10_content,nan,,,Empty or missing text
+12,LPSgoal11_content,nan,,,Empty or missing text
+12,LPSgoal12_content,nan,,,Empty or missing text
+12,LPSgoal13_content,nan,,,Empty or missing text
+12,LPSgoal14_content,nan,,,Empty or missing text
+12,LPSgoal15_content,nan,,,Empty or missing text
+13,LPSgoal1_content,读研究生,"{""categories"": [""WEC""]}",WEC,
+13,LPSgoal2_content,博士,"{""categories"": [""Oth""]}",Oth,
+13,LPSgoal3_content,工作,"{""categories"": [""WEC""]}",WEC,
+13,LPSgoal4_content,赚钱买房,"{""categories"": [""FS"", ""Hou""]}","FS, Hou",
+13,LPSgoal5_content,nan,,,Empty or missing text
+13,LPSgoal6_content,nan,,,Empty or missing text
+13,LPSgoal7_content,nan,,,Empty or missing text
+13,LPSgoal8_content,nan,,,Empty or missing text
+13,LPSgoal9_content,nan,,,Empty or missing text
+13,LPSgoal10_content,nan,,,Empty or missing text
+13,LPSgoal11_content,nan,,,Empty or missing text
+13,LPSgoal12_content,nan,,,Empty or missing text
+13,LPSgoal13_content,nan,,,Empty or missing text
+13,LPSgoal14_content,nan,,,Empty or missing text
+13,LPSgoal15_content,nan,,,Empty or missing text
+14,LPSgoal1_content,高薪穏定的工作,"{""categories"": [""WEC""]}",WEC,
+14,LPSgoal2_content,購買一個屬於自己的單位(家),"{""categories"": [""Hou""]}",Hou,
+14,LPSgoal3_content,nan,,,Empty or missing text
+14,LPSgoal4_content,nan,,,Empty or missing text
+14,LPSgoal5_content,nan,,,Empty or missing text
+14,LPSgoal6_content,nan,,,Empty or missing text
+14,LPSgoal7_content,nan,,,Empty or missing text
+14,LPSgoal8_content,nan,,,Empty or missing text
+14,LPSgoal9_content,nan,,,Empty or missing text
+14,LPSgoal10_content,nan,,,Empty or missing text
+14,LPSgoal11_content,nan,,,Empty or missing text
+14,LPSgoal12_content,nan,,,Empty or missing text
+14,LPSgoal13_content,nan,,,Empty or missing text
+14,LPSgoal14_content,nan,,,Empty or missing text
+14,LPSgoal15_content,nan,,,Empty or missing text
+15,LPSgoal1_content,助學金還款成功,"{""categories"": [""FS""]}",FS,
+15,LPSgoal2_content,事業有成,"{""categories"": [""WEC""]}",WEC,
+15,LPSgoal3_content,nan,,,Empty or missing text
+15,LPSgoal4_content,nan,,,Empty or missing text
+15,LPSgoal5_content,nan,,,Empty or missing text
+15,LPSgoal6_content,nan,,,Empty or missing text
+15,LPSgoal7_content,nan,,,Empty or missing text
+15,LPSgoal8_content,nan,,,Empty or missing text
+15,LPSgoal9_content,nan,,,Empty or missing text
+15,LPSgoal10_content,nan,,,Empty or missing text
+15,LPSgoal11_content,nan,,,Empty or missing text
+15,LPSgoal12_content,nan,,,Empty or missing text
+15,LPSgoal13_content,nan,,,Empty or missing text
+15,LPSgoal14_content,nan,,,Empty or missing text
+15,LPSgoal15_content,nan,,,Empty or missing text
+16,LPSgoal1_content,取得碩士學位,"{""categories"": [""WEC""]}",WEC,
+16,LPSgoal2_content,找一份實習工作,"{""categories"": [""WEC""]}",WEC,
+16,LPSgoal3_content,與父母出門旅行,"{""categories"": [""IR"", ""Tra""]}","IR, Tra",
+16,LPSgoal4_content,nan,,,Empty or missing text
+16,LPSgoal5_content,nan,,,Empty or missing text
+16,LPSgoal6_content,nan,,,Empty or missing text
+16,LPSgoal7_content,nan,,,Empty or missing text
+16,LPSgoal8_content,nan,,,Empty or missing text
+16,LPSgoal9_content,nan,,,Empty or missing text
+16,LPSgoal10_content,nan,,,Empty or missing text
+16,LPSgoal11_content,nan,,,Empty or missing text
+16,LPSgoal12_content,nan,,,Empty or missing text
+16,LPSgoal13_content,nan,,,Empty or missing text
+16,LPSgoal14_content,nan,,,Empty or missing text
+16,LPSgoal15_content,nan,,,Empty or missing text
+17,LPSgoal1_content,進自己想進的公司,"{""categories"": [""WEC""]}",WEC,
+17,LPSgoal2_content,nan,,,Empty or missing text
+17,LPSgoal3_content,nan,,,Empty or missing text
+17,LPSgoal4_content,nan,,,Empty or missing text
+17,LPSgoal5_content,nan,,,Empty or missing text
+17,LPSgoal6_content,nan,,,Empty or missing text
+17,LPSgoal7_content,nan,,,Empty or missing text
+17,LPSgoal8_content,nan,,,Empty or missing text
+17,LPSgoal9_content,nan,,,Empty or missing text
+17,LPSgoal10_content,nan,,,Empty or missing text
+17,LPSgoal11_content,nan,,,Empty or missing text
+17,LPSgoal12_content,nan,,,Empty or missing text
+17,LPSgoal13_content,nan,,,Empty or missing text
+17,LPSgoal14_content,nan,,,Empty or missing text
+17,LPSgoal15_content,nan,,,Empty or missing text

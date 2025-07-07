@@ -1,0 +1,29 @@
+[project]
+name = "lifeproject"
+version = "0.1.0"
+description = "A project for classifying Life Goals using LLMs"
+authors = [{ name = "Shiyu Dong", email = "s.dong1@uu.nl" }]
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+  "Programming Language :: Python :: 3.10",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "openai>=1.79.0",
+    "pandas>=2.2.3",
+    "openpyxl>=3.1",
+    "matplotlib>=3.7",
+    "seaborn>=0.12",
+    "tqdm>=4.66",
+    "python-dotenv>=1.1.0"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[[tool.uv.index]]
+url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/"

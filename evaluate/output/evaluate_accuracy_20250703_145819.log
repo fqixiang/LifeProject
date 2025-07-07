@@ -1,0 +1,21 @@
+
+🕓 2025-07-03 14:58:19
+✅ Used LLM Output File: /Users/7487614/Library/Mobile Documents/com~apple~CloudDocs/Documents/Utrecht SaSR/SoDa/FTOLP/FTOLP_LLM/output/output_classified_20250630_103327.xlsx
+📋 Manual Labels File: /Users/7487614/Library/Mobile Documents/com~apple~CloudDocs/Documents/Utrecht SaSR/SoDa/FTOLP/FTOLP_LLM/evaluate/input_ea.xlsx
+🎯 Overall Accuracy: 83.72%
+  - LPSgoal1: 83.33% (15/18)
+  - LPSgoal2: 84.62% (11/13)
+  - LPSgoal3: 90.91% (10/11)
+  - LPSgoal4: 88.89% (8/9)
+  - LPSgoal5: 100.0% (6/6)
+  - LPSgoal6: 100.0% (5/5)
+  - LPSgoal7: 80.0% (4/5)
+  - LPSgoal8: 100.0% (5/5)
+  - LPSgoal9: 50.0% (2/4)
+  - LPSgoal10: 66.67% (2/3)
+  - LPSgoal11: 0.0% (0/2)
+  - LPSgoal12: 50.0% (1/2)
+  - LPSgoal13: 100.0% (1/1)
+  - LPSgoal14: 100.0% (1/1)
+  - LPSgoal15: 100.0% (1/1)
+❗ Mismatches saved to: /Users/7487614/Library/Mobile Documents/com~apple~CloudDocs/Documents/Utrecht SaSR/SoDa/FTOLP/FTOLP_LLM/evaluate/output/differences_analysis_20250703_145819.xlsx (14 rows)

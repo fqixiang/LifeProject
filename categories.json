@@ -1,0 +1,198 @@
+{
+  "CI": {
+    "name": "Collective Issues",
+    "description": "Goals related to social/community participation, social work, philanthropy, sustainability, activism, ecological lifestyle, and related topics.",
+    "exclusions": [
+      "Having or caring for a garden or non-edible plants → Hou or EFT respectively",
+      "Helping people close to one or in one’s own social circle → IR",
+      "Exercising religious or missionary work, activities or social services → RS"
+    ],
+    "can_coexist_with": ["WEC", "Tra", "Hou"],
+    "multi_label_guidelines": [
+     "Goals related to working (not including the ideas of “charity work” or “volunteer work”) or founding and participating in a project (not mentioning “volunteer project”) with a social/ecological purpose → CI + WEC",
+     "Goals related to travelling for a communitarian purpose, including goals related to volunteering abroad for a limited period → CI + Tra",
+     "Goals related to holding a political position → CI + WEC",
+     "Goals related to communitarian housing or residing in a place with a more sustainable way of living and real estate acquisition → CI + Hou"
+    ]
+  },
+  "EFT": {
+    "name": "Exploration and Free Time",
+    "description": "Goals related to exploration, self-enjoyment, new experiences, hobbies, leisure, or entertainment activities.",
+    "exclusions": [
+      "If, after coding all the answers of a respondent (i.e., with the same ID), there is a clear connection between a reference previously included under the code “Exploration and Free Time” and their “Work, Education, and Career” goals—such as goals involving training or artistic, musical, or sporting activities that are typically associated with recreation but fall within the respondent’s professional domain → WEC",
+      "Spending time or having time to be with other people, without explicitly mentioning leisure or free time → IR",
+      "Working on what you like, with no mention of leisure or free time → WEC"
+    ],
+    "can_coexist_with": [],
+    "multi_label_guidelines":[
+      "This category is typically used alone. If a goal overlaps with work or education, it should be classified under WEC instead."
+    ]
+  },
+  "FS": {
+    "name": "Finances and Subsistence",
+    "description": "Goals related to achieving a better financial life and economic independence. This includes learning about personal finances, increasing or securing sources of income, making financial investments, saving money, and acquiring properties as investment assets. It also encompasses goals related to financial stability and self-sufficiency, such as paying off debts, managing and reducing expenses, purchasing essential goods like food and clothing, and living without financial worry.",
+    "exclusions": [
+      "Decreasing consumption, being less consumerist, or practicing conscious consumption → CI",
+      "Supporting others in material or non-material ways, such as the goals of supporting their children’s education or giving gifts to others → IR",
+      "Supporting others in material or non-material ways, such as the goals of supporting strangers’ education or giving gifts to strangers → CI",
+      "Obtaining funding or income for one’s own studies or research activities → WEC",
+      "Buying or having one’s own space or place to live, without mentioning real estate, housing or residence → Hou",
+      "Acquire/possess a vehicle (car, motorcycle, truck, motorhome) → MD",
+      "Having or expanding one’s own business, including goals of having one’s own office, without mentioning acquiring real estate or explicit financial investments → WEC"
+    ],
+    "can_coexist_with": ["WEC", "HQL", "EFT", "Tra"],
+    "multi_label_guidelines": [
+      "Goals related to obtaining a job with better pay, retirement with financial security or increasing profit from one’s own business → FS + WEC",
+      "Goals related to increasing income to improve living conditions → FS + HQL",
+      "Goals related to increasing income for leisure time activities → FS + EFT",
+      "Goals related to increasing income for travel → FS + Tra",
+      "Goals related to enterprise, entrepreneurship, or managing entrepreneurial affairs, including starting a company and working towards personal business objectives → FS + WEC"
+    ]   
+  },
+  "HQL": {
+    "name": "Health and Quality of Life",
+    "description": "Goals focused on physical and mental health, well-being, and quality of life. This includes adopting a healthy lifestyle—such as taking care of one's diet, sleep, engaging in physical activity (e.g., gym, pilates, weight training), quitting smoking, and undergoing medical treatments. It also covers goals related to healing from health problems and improving mental health, including going to therapy and managing or recovering from conditions like anxiety, depression, or phobias. Goals related to body image, such as losing, gaining, or maintaining weight, gaining muscle mass, and achieving physical fitness, are also included. Additionally, this category encompasses aspirations for better living conditions, comfort, tranquility, simplicity, and an organized life. It may also include goals of living close to work or in a secure, peaceful environment. Finally, it includes desires to be in touch with nature or to live in/acquire real estate in natural settings—such as the countryside, beach, or rural properties—and purchasing leisure properties not intended as a primary residence.",
+    "exclusions": [
+      "Having a stable or healthy relationship → IR",
+      "Changing or caring for physical appearance → Oth",
+      "Doing or practicing a sport discipline → EFT",
+      "Management of emotions or improving self-control with no reference to a medical condition/symptoms → PDEI",
+      "Worrying less about other people or things → IR"
+    ],
+    "can_coexist_with": ["WEC", "Hou", "MAR"],
+    "multi_label_guidelines": [
+      "Goals related to working less, slowing down, and reconciling work time with other activities or areas of life → HQL + WEC",
+      "Goals related to living in a more comfortable place, in a quiet place, with a yard or patio, or in better conditions → HQL + Hou",
+      "Goals related to moving to another location due to expected improvements in life quality or health → HQL + MAR",
+      "Goals related to acquiring leisure properties and real estate without specifying them as a primary residence → HQL + Hou"
+    ]
+  },
+  "Hou": {
+    "name": "Housing",
+    "description": "Goals related to leaving one’s parental home and establishing an independent living arrangement, such as having one’s own house, apartment, room, or personal space. This includes buying or acquiring a primary residence and seeking better living conditions—such as moving to a more comfortable, quieter, or more practical location, or one closer to nature or the sea. It also encompasses goals involving the improvement or maintenance of one's living space, including decorating, purchasing furniture, or renovating the home (e.g., expanding rooms or upgrading facilities).",
+    "exclusions": [
+      "Living with or near specific people, including goals of getting together with someone, living together, and living in pairs → IR",
+      "Moving to another location (city, region, state, country, or continent), including goals of moving to the countryside, the beach or a big city, without mentioning change of residence, residence typology, changes in housing conditions or people to live with → MAR"
+    ],
+    "can_coexist_with": ["MAR", "HQL", "CI"],
+    "multi_label_guidelines": [
+      "Goals that involve acquiring a residence and relocating to a different geographic area → Hou + MAR",
+      "Goals of living in sustainable housing → Hou + CI",
+      "Goals that mention a change of housing situation due to health and quality of life related issues, including goals of living in a countryside or beach property → Hou + HQL",
+      "Having better living conditions, living in a more comfortable place or in a quiet location, in contact with nature, near the sea or in a more day-to-day life practical location → Hou + HQL"
+    ]
+  },
+  "IR": {
+    "name": "Interpersonal Relationships",
+    "description": "Goals focused on building, maintaining, or improving interpersonal relationships. This includes forming or formalizing romantic relationships—such as dating, finding love, getting engaged or married, and establishing a stable partnership. It also covers aspirations to have or adopt children, start a family, and take on parental roles (e.g., becoming a mother or father, giving birth). Additionally, this category includes improving the quality of relationships by spending time with loved ones, going on dates, visiting or doing activities with family, romantic partners, or friends. It also encompasses goals related to living with or near close others, offering support or gifts to them, and developing or maintaining friendships—such as meeting new people, making friends, or restoring existing relationships.",
+    "exclusions": [
+      "Helping people in general, without reference to close personal relationships (e.g., helping strangers or broader communities) → CI"
+    ],
+    "can_coexist_with": ["RS", "Tra", "EFT", "WEC"],
+    "multi_label_guidelines": [
+      "Goals related to religious marriage → IR + RS",
+      "Goals related to travel with other people → IR + Tra",
+      "Goals involving shared leisure activities (e.g., cooking, swimming, singing) with others → IR + EFT",
+      "Goals involving collaboration on a professional or work-related project with others → IR + WEC"
+    ]
+  },
+  "MAR": {
+    "name": "Migration and Area of Residence",
+    "description":  "Goals related to geographic mobility and migration, including emigration, immigration, and the establishment of residence in a specific location. This covers changing one’s place of living—such as moving to another city, region, country, or continent for purposes like studying, working, or volunteering—as well as relocating to lifestyle destinations such as the countryside, beach, or a major city. It also includes the intention to maintain or return to a particular location (e.g., one’s country or region of origin). Finally, this category encompasses goals related to obtaining another citizenship or handling international documentation, such as acquiring a passport or validating academic credentials from a foreign country.",
+    "exclusions": [
+      "Living on a rural property (e.g., farm, country house, etc.), in a place close to nature, in a quiet place or near the sea, without the explicit mention of geographical displacement → HQL + Hou",
+      "Getting a job where you live, making it explicit that there is no geographical displacement → WEC",
+      "Changing neighbourhoods → Hou"
+    ],
+    "can_coexist_with": ["WEC", "CI", "Hou"],
+    "multi_label_guidelines": [
+      "Goals involving study, student exchange, or relocating abroad for education or work → MAR + WEC",
+      "Goals related to moving abroad for volunteering → MAR + CI",
+      "Goals involving the purchase of a residence or real estate in a different region or country → MAR + Hou",
+      "Goals related to foreign degree validation → MAR + WEC"
+    ]
+  },
+  "MD": {
+    "name": "Mobility and Driving",
+    "description": "Goals related to personal mobility and driving. This includes obtaining a driver’s license, attending driving school, learning or improving driving skills, and goals about reducing reliance on driving or vehicles. It also covers acquiring or owning a vehicle, such as a car, motorcycle, truck, or motorhome.",
+    "exclusions": [
+      "Experiencing or doing recreational activities in the realm of motorized sports → EFT"
+    ],
+    "can_coexist_with": ["WEC", "EFT"],
+    "multi_label_guidelines": [
+      "Goals related to getting a driver’s license for professional purposes → MD + WEC",
+      "Goals related to getting a vehicle for leisure or recreational purposes → MD + EFT"
+    ]
+  },
+  "PDEI": {
+    "name": "Personal Development, Emotions, and Identity",
+    "description": "Goals related to personal development, emotional experience, and identity. This includes experiencing positive emotions (e.g., happiness, fulfillment, peace, gratitude, optimism) and avoiding negative emotions (e.g., guilt), without referring to clinical mental health conditions. It also covers emotional stability, self-knowledge, self-care, and alignment between one's beliefs and actions. Goals in this category involve developing personal characteristics—such as becoming a better person, being more independent or autonomous (not in the financial sense), or feeling at peace with oneself. They may also include rejecting external judgments, accepting one's sexuality, enhancing self-esteem or body image, and cultivating traits like proactivity, creativity, purpose, and meaning. Finally, this category includes goals focused on living in the present, organizing personal time, and fostering intentional personal growth.",
+    "exclusions": [
+      "Goals about self-employment or professional/educational development → WEC",
+      "Goals that link emotional outcomes to career, education, or financial domains (e.g., 'professional stability', 'financial independence', 'educational goals') → WEC",
+      "Pursuing happiness or fulfillment specifically through one's job or studies → WEC",
+      "Pursuing happiness or fulfillment specifically through one's hobbies → EFT",
+      "Seeking therapy or managing clinical mental health conditions/symptoms → HQL",
+      "Goals focused on physical appearance or grooming (e.g., hair, skin, clothing) → Oth"
+    ],
+  "can_coexist_with": [],
+  "multi_label_guidelines": []
+  },
+  "RS": {
+    "name": "Religion and Spirituality",
+    "description": "Goals involving religion, spirituality, and faith-based communities. This includes developing or maintaining religious beliefs and spiritual balance, as well as deepening knowledge of spiritual or religious practices. It also covers participation in religious activities and rituals, and engaging in religious leadership or founding spiritual/religious groups.",
+    "exclusions": [
+      "Meditation or the practice of yoga for non-religious or well-being purposes → EFT"
+    ],
+    "can_coexist_with": ["Tra", "MAR","IR"],
+    "multi_label_guidelines": [
+      "Goals involving religious travel or tourism → RS + Tra",
+      "Goals related to moving to a new location due to religious issues → RS + MAR",
+      "Goals related to religious marriage → RS + IR"
+    ]
+  },
+  "Tra": {
+    "name": "Travelling",
+    "description": "Goals related to exploring new places and travelling, such as exploring new destinations, experiencing different cultures.",
+    "exclusions": [
+      "Moving abroad → MAR",
+      "Learning about and appreciating diverse cultures, traditions, and ways of life → EFT"
+    ],
+    "can_coexist_with": ["RS", "WEC", "IR", "CI"],
+    "multi_label_guidelines": [
+      "Goals related to travelling with the specific intention of completing religious or spiritual activities, like visiting sacred sites → Tra + RS",
+      "Goals related to travelling with the specific intention of completing professional, educational, or work-related activities, like attending conferences/meetings → Tra + WEC",
+      "Goals related to travelling with the specific intention of completing family, friendship, or romantic activities, like visiting family members → Tra + IR",
+      "Goals related to travelling with the specific intention of completing communitarian purposes, like volunteering abroad for a limited period → Tra + CI"
+    ]
+  },
+  "WEC": {
+    "name": "Work, Education, and Career",
+    "description": "Goals related to education, work, professional development, and career advancement. This includes starting, completing, or succeeding in any educational process—such as school, vocational training, undergraduate and graduate degrees, specializations, university extensions, study planning, or foreign degree validation. It also includes entering or remaining in the job market, securing employment, participating in internships, passing professional exams, or joining professional associations. Goals related to entrepreneurship—such as starting or managing a business or independent project—are also included. Additionally, this category covers goals aimed at improving working conditions, achieving work-life balance, reaching professional stability, or retiring. It includes aspirations to demonstrate professional excellence, gain recognition, get promoted, be productive, or accomplish work-related milestones like completing projects or obtaining scholarships.",
+    "exclusions": [
+      "Investing in the education of others, such as supporting children’s education → IR",
+      "Contributing to social or environmental projects without mentioning a professional role or work involvement → CI",
+      "Seeking better income or salary without referencing employment or work → FS",
+      "Acquiring property or making financial investments without mentioning entrepreneurship or work involvement → FS"
+    ],
+    "can_coexist_with": ["MAR", "Tra", "CI", "FS", "HQL"],
+    "multi_label_guidelines": [
+      "Study exchange, studying abroad, or validating a foreign degree → WEC + MAR",
+      "Traveling for educational purposes, such as attending conferences or academic meetings → WEC + Tra",
+      "Working in other geographic locations (cities, regions, countries, continents) → WEC + MAR",
+      "Working for nonprofit, social, or environmental purposes → WEC + CI",
+      "Wanting to make a living from a work activity → WEC + FS",
+      "Creating or participating in a social or environmental project → WEC + CI",
+      "Entrepreneurship-related goals involving finances or business growth → WEC + FS",
+      "Aspirations to reduce working hours and improve work–life balance → WEC + HQL",
+      "Traveling specifically for work-related purposes → WEC + Tra"
+    ]
+  },
+  "Oth": {
+    "name": "Other",
+    "description": "Goals that do not fit into any of the above categories. This includes, for example: virtual life goals (e.g., 'Get more Instagram followers'), death-related wishes (e.g., 'I want to be cremated'), goals involving animals or pets (e.g., 'Have a cat/dog', 'Get a pet'), and goals about physical appearance or body image (e.g., 'Get a tattoo', 'Become more beautiful').",
+    "exclusions": [],
+    "can_coexist_with": [],
+    "multi_label_guidelines": []
+  }
+}
