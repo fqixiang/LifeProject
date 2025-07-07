@@ -125,5 +125,7 @@ The old script main.py is deprecated and will be removed in future versions.
 ## 👩‍💻 Author
 
 Shiyu Dong  
+
 s.dong1@uu.nl
+
 Utrecht University | SaSR & SoDa
