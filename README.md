@@ -34,8 +34,8 @@ FTOLP_LLM/
 ├── lifeproject                                         # Core Python package (classification logic & config)
 │   ├── __init__.py                                     # Package initialization
 │   ├── __pycache__/                                    # (Generated) Cache directory folder
-│   ├── classifier_batched.py                           # *Main classification logic using LLM for main_batched.py(not run yet)
-│   ├── prompt_builder.py                               # *System prompt for main_batched.py(not run yet)
+│   ├── classifier_batched.py                           # Main classification logic using LLM for main_batched.py
+│   ├── prompt_builder.py                               # System prompt for main_batched.py
 │   ├── config.py                                       # LLM config management (loads .env)
 │   └── llm.py                                          # LLM config dataclass and OpenAI interface
 ├── main_batched.py                                     # Main script to classify life goals in an Excel file using batched LLM requests
