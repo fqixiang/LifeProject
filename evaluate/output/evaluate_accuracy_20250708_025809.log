@@ -1,5 +1,5 @@
 
-🕓 2025-07-07 22:58:03
+🕓 2025-07-08 02:58:09
 ✅ Used LLM Output File: /Users/7487614/Library/Mobile Documents/com~apple~CloudDocs/Documents/Utrecht SaSR/SoDa/FTOLP/FTOLP_LLM/output/output_classified_batched_by_id_20250707_225336.xlsx
 📋 Manual Labels File: /Users/7487614/Library/Mobile Documents/com~apple~CloudDocs/Documents/Utrecht SaSR/SoDa/FTOLP/FTOLP_LLM/evaluate/Final_Data_Pilot_test_ea.xlsx
 🎯 Overall Accuracy: 87.65%
@@ -13,4 +13,3 @@
   - LPSgoal8: 100.0% (2/2)
   - LPSgoal9: 100.0% (1/1)
   - LPSgoal10: 100.0% (1/1)
-❗ Mismatches saved to: /Users/7487614/Library/Mobile Documents/com~apple~CloudDocs/Documents/Utrecht SaSR/SoDa/FTOLP/FTOLP_LLM/evaluate/output/differences_analysis_20250707_225803.xlsx (10 rows)

@@ -7,13 +7,10 @@ This project classifies life goals into structured categories using large langua
 ## 🔄 Update: Batched Classification (batch-llm-call branch)
 This branch introduces a more efficient version of the classification logic with key updates:
 - Use main_batched.py instead of main.py
-
 - Combine all non-empty goals per person (row) into a single LLM call, reducing token usage
-
 - Replace categories.json with system_prompt.txt, which ensures full alignment with the current codebook
-
 - Same output structure as before: one classification per goal column
-
+- Update evaluate_accuracy.py to output classification accuracy by category and by person, and to list all cases with classification differences
 To run the new version:
 
 ```bash
