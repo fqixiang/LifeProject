@@ -11,6 +11,7 @@ This branch introduces a more efficient version of the classification logic with
 - Replace categories.json with system_prompt.txt, which ensures full alignment with the current codebook
 - Same output structure as before: one classification per goal column
 - Update evaluate_accuracy.py to output classification accuracy by category and by person, and to list all cases with classification differences
+
 To run the new version:
 
 ```bash
